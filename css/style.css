@@ -1,9 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap");
 
+html {
+  background: rgb(251, 255, 253);
+  background: radial-gradient(
+    circle,
+    rgba(251, 255, 253, 1) 42%,
+    rgba(127, 207, 103, 0.8435749299719888) 100%
+  );
+}
+
 h1,
 h2,
 h3 {
   font-family: "Comfortaa", cursive;
+  text-transform: uppercase;
 }
 
 p,
@@ -53,9 +63,13 @@ header img:hover {
 .social-media-footer {
   padding: 20px;
   text-align: center;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .social-media-icons {
+  display: flex;
+  justify-content: space-evenly;
   list-style: none;
   padding: 0;
 }
