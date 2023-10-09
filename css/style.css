@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap");
+
+h1,
+h2,
+h3 {
+  font-family: "Comfortaa", cursive;
+}
+
+p,
+li {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   width: 100%;
 }
@@ -33,4 +46,31 @@ header img {
 header img:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+/* Footer Styling */
+
+.social-media-footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media-icons img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s;
+}
+
+.social-media-icons img:hover {
+  transform: scale(1.2);
 }
