@@ -3,3 +3,46 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.column-one {
+  float: left;
+  width: 50%;
+  padding: 25px;
+}
+
+.column-two {
+  float: left;
+  width: 50%;
+  padding: 25px;
+}
+
+.button {
+  border: 5px solid #03071e;
+  background-color: transparent;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #03071e;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #03071e;
+  color: white;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
