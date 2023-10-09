@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@100&display=swap");
 
-html {
+/* html {
   background: rgb(251, 255, 253);
   background: radial-gradient(
     circle,
     rgba(251, 255, 253, 1) 42%,
     rgba(127, 207, 103, 0.8435749299719888) 100%
   );
-}
+} */
 
 h1,
 h2,
@@ -23,6 +23,13 @@ li {
 
 header {
   width: 100%;
+}
+
+#logo {
+  width: 170px;
+  height: auto;
+  display: flex;
+  padding-bottom: 30px;
 }
 
 nav {
