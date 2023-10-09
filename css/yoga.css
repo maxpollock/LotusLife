@@ -1,0 +1,31 @@
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-media-footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media-icons img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.2s;
+}
+
+.social-media-icons img:hover {
+  transform: scale(1.2);
+}
