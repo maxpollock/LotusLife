@@ -1,11 +1,26 @@
 section {
-  width: 80%;
+  width: 85%;
   margin: 2rem auto;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-resources-container {
+h1 {
+  width: 83%;
+  margin: 3rem auto;
+}
 
+.resources-container {
+  max-width: 25%;
+  border: 1px solid black;
+  margin: 2rem 1rem;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.resources-container li {
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
 }
