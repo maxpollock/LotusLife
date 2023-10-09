@@ -45,7 +45,7 @@ nav {
   align-items: center;
 }
 
-ul li {
+nav ul li {
   list-style: none;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -58,7 +58,7 @@ a {
   text-decoration: none;
 }
 
-ul {
+nav ul {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
