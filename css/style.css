@@ -9,6 +9,11 @@
   );
 } */
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3 {
@@ -45,6 +50,12 @@ ul li {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: bold;
+  color: black;
+  transition: 0.5s;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
@@ -60,7 +71,8 @@ header img {
   transition: 0.5s;
 }
 
-header img:hover {
+header img:hover,
+a li:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
