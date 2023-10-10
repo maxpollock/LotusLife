@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/meditation.css" />
     <script src="./js/app.js" defer></script>
+    <script src="./js/medals.js" defer></script>
+    <script src="./js/meditation.js" defer></script>
     <title>Meditation</title>
   </head>
   <header>
@@ -17,8 +19,16 @@
         <a href="./about.html"><li>About</li></a>
         <a href="./yoga.html"><li>Yoga</li></a>
         <span
-          ><img src="./images/light-mode.png" alt="light mode" id="lightmode" />
-          <img src="./images/dark-mode.png" alt="dark mode" id="darkmode"
+          ><img
+            src="./images/light-mode.png"
+            alt="light mode"
+            id="lightmode"
+            onclick="toggleTheme();" />
+          <img
+            src="./images/dark-mode.png"
+            alt="dark mode"
+            id="darkmode"
+            onclick="toggleTheme();"
         /></span>
         <a href="./meditation.html"><li>Meditation</li></a>
         <a href="./resources.html"><li>Resources</li></a>
@@ -29,44 +39,47 @@
     </nav>
   </header>
   <body>
-    <section>
+    <section class="meditations">
       <div id="morning">
         <h3>Morning Meditation</h3>
         <iframe
           style="border-radius: 12px"
-          src="https://open.spotify.com/embed/track/0VYJ2uZPouPzkLroCkGpwT?utm_source=generator"
+          src="https://open.spotify.com/embed/track/0VYJ2uZPouPzkLroCkGpwT?utm_source=generator&theme=0"
           width="100%"
           height="152"
           frameborder="0"
           allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
+          id="mediate1"
         ></iframe>
       </div>
       <div id="nighttime">
         <h3>Nighttime Meditation</h3>
         <iframe
           style="border-radius: 12px"
-          src="https://open.spotify.com/embed/track/46biZBPkwqTzB70Pabb9ks?utm_source=generator"
+          src="https://open.spotify.com/embed/track/6W7hjPkGlhsMjNpiIyt1so?utm_source=generator&theme=0"
           width="100%"
           height="152"
           frameborder="0"
           allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
+          id="mediate2"
         ></iframe>
       </div>
       <div id="calming">
         <h3>Calming Meditation</h3>
         <iframe
           style="border-radius: 12px"
-          src="https://open.spotify.com/embed/track/3GyP62fifO2g56B17PCGfU?utm_source=generator"
+          src="https://open.spotify.com/embed/track/2y8lJB2Q0Usr9giRZRG5u1?utm_source=generator&theme=0"
           width="100%"
           height="152"
           frameborder="0"
           allowfullscreen=""
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
+          id="mediate3"
         ></iframe>
       </div>
     </section>
