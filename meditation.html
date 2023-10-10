@@ -39,10 +39,11 @@
   </header>
   <body>
     <h1>MEDITATION</h1>
-    <section class="meditations">
+    <section class="meditations" id="meditateClick">
       <div id="morning">
         <h3>Morning Meditation</h3>
         <iframe
+          id="morn"
           style="border-radius: 12px"
           src="https://open.spotify.com/embed/track/0VYJ2uZPouPzkLroCkGpwT?utm_source=generator&theme=0"
           width="100%"
@@ -52,6 +53,7 @@
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
+        <button onclick="meditateClick()">Log my Meditation</button>
       </div>
       <div id="nighttime">
         <h3>Nighttime Meditation</h3>
@@ -65,6 +67,7 @@
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
+        <button onclick="meditateClick()">Log my Meditation</button>
       </div>
       <div id="calming">
         <h3>Calming Meditation</h3>
@@ -78,6 +81,7 @@
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
         ></iframe>
+        <button onclick="meditateClick()">Log my Meditation</button>
       </div>
     </section>
   </body>
