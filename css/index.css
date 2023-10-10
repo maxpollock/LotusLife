@@ -1,0 +1,86 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr 1fr 2fr 1fr;
+}
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+#circle {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+  background: rgb(255, 255, 255);
+  /*url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDmNmZAsFk8H8ALkvvJB51Zfs0Pfc9B1kXmA&usqp=CAU)*/
+  margin: 15%;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-size: 610px;
+  box-shadow: inset 8px 36px 80px 36px rgb(103, 203, 120),
+    inset -6px 0 12px 4px rgba(103, 203, 120, 0.553);
+  animation: pulse;
+  will-change: transform;
+  animation-name: breathing;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes breathing {
+  0% {
+    transform: scale(1);
+    background-color: rgba(103, 203, 120, 0.553);
+  }
+
+  50% {
+    transform: scale(0.5);
+    background-color: white;
+  }
+
+  100% {
+    transform: scale(0.25);
+    background-color: rgb(103, 203, 120);
+  }
+}
+from {
+  background-position: 0px 0px;
+}
+
+#start {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  width: 150px;
+  height: 40px;
+  justify-self: center;
+}
+p {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  text-align: center;
+}
+ol {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  text-align: center;
+  list-style: decimal inside none;
+}
+
+footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  justify-self: center;
+}
