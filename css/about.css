@@ -1,12 +1,54 @@
-image {align-items: center;
+image {
+  align-items: center;
 }
 
 h2 {
   text-align: center;
 }
 
-p {text-align: center;
+p {
+  text-align: center;
 }
 
-form {text-align: center;
+textarea {
+  font-family: "Roboto", sans-serif;
+  width: 70%;
+  height: 100px;
+  resize: none;
+}
+
+input {
+  width: 70%;
+}
+
+label,
+button,
+input,
+select,
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  margin: 4px 0;
+  padding: 6px;
+}
+
+#form-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 50%;
+}
+label {
+  display: inline-block;
+  width: 20%;
+}
+input {
+  display: inline-block;
+}
+
+button {
+  display: flex;
+  justify-content: center;
 }
