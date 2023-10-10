@@ -6,7 +6,7 @@ let meditateClicks = localStorage.getItem("Meditate Clicks") || 0;
 let yogaClicks = localStorage.getItem("Yoga Clicks") || 0;
 
 // Lotus App
-let lotusApp = document.getElementById("lotus");
+let lotusApp = document.getElementById("start");
 
 // Mediation Audio
 let mediate1 = document.getElementById("mediate1");
