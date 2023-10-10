@@ -1,58 +1,11 @@
-// Breathing Lotus
-// Meditation Track
-// Yoga Video
 let lotusClicks = localStorage.getItem("Lotus Clicks") || 0;
 let meditateClicks = localStorage.getItem("Meditate Clicks") || 0;
 let yogaClicks = localStorage.getItem("Yoga Clicks") || 0;
 
-// Lotus App
-let lotusApp = document.getElementById("start");
-
-// Mediation Audio
-let mediate1 = document.getElementById("mediate1");
-let mediate2 = document.getElementById("mediate2");
-let mediate3 = document.getElementById("mediate3");
-
-// Yoga Videos
-let yoga1 = document.getElementById("yoga1");
-let yoga2 = document.getElementById("yoga2");
-let yoga3 = document.getElementById("yoga3");
-
-lotusApp.addEventListener("click", lotusClick);
-
-mediate1.addEventListener("click", meditateClick);
-mediate2.addEventListener("click", meditateClick);
-mediate3.addEventListener("click", meditateClick);
-
-yoga1.addEventListener("click", yogaClick);
-yoga2.addEventListener("click", yogaClick);
-yoga3.addEventListener("click", yogaClick);
-
-// a click event function that increase the correct click counter and runs the below function
-function lotusClick() {
-  lotusClicks++;
-  localStorage.setItem("Lotus Clicks", lotusClicks);
-  medalCheck();
-}
-
-function meditateClick() {
-  meditateClicks++;
-  localStorage.setItem("Meditate Clicks", meditateClicks);
-  medalCheck();
-}
-
-function yogaClick() {
-  yogaClicks++;
-  localStorage.setItem("Yoga Clicks", yogaClicks);
-  medalCheck();
-}
-
-// function that checks yoga, lotus and meditate clicks and add relevant image medals
-
 function medalCheck() {
   let awards = document.getElementById("awards");
 
-  if (lotusClicks === 5) {
+  if (lotusClicks >= 5) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let lotus5 = document.createElement("img");
@@ -66,7 +19,7 @@ function medalCheck() {
     awards.appendChild(medalsDiv);
   }
 
-  if (meditateClicks === 5) {
+  if (meditateClicks >= 5) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let meditate5 = document.createElement("img");
@@ -80,7 +33,7 @@ function medalCheck() {
     awards.appendChild(medalsDiv);
   }
 
-  if (yogaClicks === 5) {
+  if (yogaClicks >= 5) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let yoga5 = document.createElement("img");
@@ -94,7 +47,7 @@ function medalCheck() {
     awards.appendChild(medalsDiv);
   }
 
-  if (lotusClicks === 10) {
+  if (lotusClicks >= 10) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let lotus10 = document.createElement("img");
@@ -107,7 +60,7 @@ function medalCheck() {
     medalsDiv.appendChild(lotus10text);
     awards.appendChild(medalsDiv);
   }
-  if (meditateClicks === 10) {
+  if (meditateClicks >= 10) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let meditate10 = document.createElement("img");
@@ -120,7 +73,7 @@ function medalCheck() {
     medalsDiv.appendChild(meditate10text);
     awards.appendChild(medalsDiv);
   }
-  if (yogaClicks === 10) {
+  if (yogaClicks >= 10) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let yoga10 = document.createElement("img");
@@ -134,7 +87,7 @@ function medalCheck() {
     awards.appendChild(medalsDiv);
   }
 
-  if (lotusClicks === 20) {
+  if (lotusClicks >= 20) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let lotus20 = document.createElement("img");
@@ -147,7 +100,7 @@ function medalCheck() {
     medalsDiv.appendChild(lotus20text);
     awards.appendChild(medalsDiv);
   }
-  if (meditateClicks === 20) {
+  if (meditateClicks >= 20) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let meditate20 = document.createElement("img");
@@ -160,7 +113,7 @@ function medalCheck() {
     medalsDiv.appendChild(meditate20text);
     awards.appendChild(medalsDiv);
   }
-  if (yogaClicks === 20) {
+  if (yogaClicks >= 20) {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let yoga20 = document.createElement("img");
@@ -174,3 +127,5 @@ function medalCheck() {
     awards.appendChild(medalsDiv);
   }
 }
+
+medalCheck();
