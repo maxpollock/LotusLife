@@ -45,9 +45,34 @@
       natus.
     </p>
 
-    <h2>Contact</h2>
-    <form action="">I am a form!</form>
-    <img src="https://fakeimg.pl/400x300?text=LotusLife" alt="" />
+    <div id="form-container">
+      <form>
+        <fieldset>
+          <legend><h2>Contact</h2></legend>
+          <label for="name">Name</label>
+          <input name="Name" type="text" id="name" />
+
+          <br />
+
+          <label for="email">Email</label>
+          <input name="email" type="email" id="email" />
+
+          <br />
+
+          <label for="message">Your Message</label>
+          <textarea
+            name="message"
+            id="message"
+            rows="3"
+            placeholder="Write your message here"
+          >
+          </textarea>
+          <br /><br />
+          <button>Submit</button>
+        </fieldset>
+      </form>
+    </div>
+    <div id="subs"></div>
   </body>
   <footer class="social-media-footer">
     <ul class="social-media-icons">
