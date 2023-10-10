@@ -107,3 +107,13 @@ a li:hover {
 .social-media-icons img:hover {
   transform: scale(1.2);
 }
+
+.light {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+}
+
+.dark {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+}

@@ -9,7 +9,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
-    <script src="./js/medals.js" defer></script>
+
+    <script src="./js/lightdarkmode.js"></script>
+
     <title>User Profile</title>
   </head>
   <header>
@@ -21,8 +23,16 @@
         <a href="./about.html"><li>About</li></a>
         <a href="./yoga.html"><li>Yoga</li></a>
         <span
-          ><img src="./images/light-mode.png" alt="light mode" id="lightmode" />
-          <img src="./images/dark-mode.png" alt="dark mode" id="darkmode"
+          ><img
+            src="./images/light-mode.png"
+            alt="light mode"
+            id="lightmode"
+            onclick="toggleTheme();" />
+          <img
+            src="./images/dark-mode.png"
+            alt="dark mode"
+            id="darkmode"
+            onclick="toggleTheme();"
         /></span>
         <a href="./meditation.html"><li>Meditation</li></a>
         <a href="./resources.html"><li>Resources</li></a>
