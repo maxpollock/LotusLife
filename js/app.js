@@ -1,17 +1,9 @@
-function breathPausePlayToggle() {
-  let circle = document.getElementById("circle");
-
-  const running = circle.style.animationPlayState === "running";
-
-  circle.style.animationPlayState = running ? "paused" : "running";
+function toggleAnimation() {
+  document.getElementById("circle").classList.toggle("on");
+  let circle = document.getElementById("animation");
+  circle.textContent = "Stop";
 }
 
-const button = document.querySelector(".start");
-
-button.addEventListener("click", (e) => {
-  e.preventDefault;
-  button.classList.add("animate");
-  setTimeout(() => {
-    button.classList.remove("animate");
-  }, 600);
-});
+const animationBtn = document.getElementById("animation");
+animationBtn.addEventListener("click", toggleAnimation);
+localStorage.setItem("Button", "Start");
