@@ -10,7 +10,9 @@ header {
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
 #circle {
+  border: 1px solid rgb(103, 203, 120);
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -18,14 +20,13 @@ header {
   justify-self: center;
   background: rgb(255, 255, 255);
   /*url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDmNmZAsFk8H8ALkvvJB51Zfs0Pfc9B1kXmA&usqp=CAU)*/
-  margin: 15%;
   width: 500px;
   height: 500px;
   border-radius: 50%;
   background-size: 610px;
   box-shadow: inset 8px 36px 80px 36px rgb(103, 203, 120),
     inset -6px 0 12px 4px rgba(103, 203, 120, 0.553);
-  animation: pulse;
+  animation: pulse 8s;
   will-change: transform;
   animation-name: breathing;
   animation-duration: 8s;
@@ -34,25 +35,18 @@ header {
 }
 @keyframes breathing {
   0% {
+    transform: scale(0.25) rotate(180deg);
+  }
+  60% {
     transform: scale(1);
-    background-color: rgba(103, 203, 120, 0.553);
   }
-
-  50% {
-    transform: scale(0.5);
-    background-color: white;
-  }
-
   100% {
-    transform: scale(0.25);
-    background-color: rgb(103, 203, 120);
+    transform: scale(0.25) rotate(180deg);
   }
 }
-from {
-  background-position: 0px 0px;
-}
 
-#start {
+.start {
+  font-size: 1.5rem;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 3;
@@ -61,7 +55,13 @@ from {
   height: 40px;
   justify-self: center;
 }
+
+.start:active {
+  transform: scale(0.96);
+}
+
 p {
+  font-size: 1.5rem;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 4;
@@ -69,6 +69,7 @@ p {
   text-align: center;
 }
 ol {
+  font-size: 1.5rem;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 5;

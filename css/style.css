@@ -10,8 +10,8 @@
 } */
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 2em;
+  padding: 1em;
 }
 
 h1,
@@ -39,7 +39,7 @@ header {
 
 nav {
   margin: 1rem auto;
-  width: 80%;
+  width: 95%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -106,4 +106,14 @@ a li:hover {
 
 .social-media-icons img:hover {
   transform: scale(1.2);
+}
+
+.light {
+  background-color: rgb(255, 255, 255);
+  color: #333;
+}
+
+.dark {
+  background-color: #333;
+  color: rgb(255, 255, 255);
 }

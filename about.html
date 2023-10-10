@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/about.css" />
-    <script src="./js/app.js" defer></script>
+    <script src="./js/lightdarkmode.js" defer></script>
     <script src="./js/form.js" defer></script>
     <title>About</title>
   </head>
@@ -18,8 +18,16 @@
         <a href="./about.html"><li>About</li></a>
         <a href="./yoga.html"><li>Yoga</li></a>
         <span
-          ><img src="./images/light-mode.png" alt="light mode" id="lightmode" />
-          <img src="./images/dark-mode.png" alt="dark mode" id="darkmode"
+          ><img
+            src="./images/light-mode.png"
+            alt="light mode"
+            id="lightmode"
+            onclick="toggleTheme();" />
+          <img
+            src="./images/dark-mode.png"
+            alt="dark mode"
+            id="darkmode"
+            onclick="toggleTheme();"
         /></span>
         <a href="./meditation.html"><li>Meditation</li></a>
         <a href="./resources.html"><li>Resources</li></a>
