@@ -26,13 +26,16 @@ header {
   background-size: 610px;
   box-shadow: inset 8px 36px 80px 36px rgb(103, 203, 120),
     inset -6px 0 12px 4px rgba(103, 203, 120, 0.553);
-  animation: pulse 8s;
   will-change: transform;
+  position: relative;
+}
+
+.on {
   animation-name: breathing;
   animation-duration: 8s;
   animation-iteration-count: infinite;
-  position: relative;
 }
+
 @keyframes breathing {
   0% {
     transform: scale(0.25) rotate(180deg);
