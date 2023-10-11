@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
     <script src="./js//medalfunctions/medals.js" defer></script>
+    <script src="./js/profileform.js" defer></script>
     <script src="./js/lightdarkmode.js"></script>
     <title>User Profile</title>
   </head>
@@ -54,12 +55,42 @@
           <span class="material-symbols-outlined"> person </span>
           User Details:
         </h2>
-        <p>Name: John Doe</p>
-        <p>Email: johndoe@doemail.com</p>
-        <p>Birthday: 12/03/1990</p>
-        <p>Country: United Kingdom</p>
-        <p>Theme Preference: Dark</p>
+        <p id="name"></p>
+        <p id="email"></p>
+        <p id="birthday"></p>
+        <p id="country"></p>
+        <p id="theme"></p>
+        <p id="lotus"></p>
+        <p id="yoga"></p>
+        <p id="meditation"></p>
       </section>
+
+      <form id="userprofile-form">
+        <h2>
+          <span class="material-symbols-outlined"> person </span>Create a User
+          Profile:
+        </h2>
+        <label for="name">Name:</label>
+        <input name="Name" type="text" id="name" />
+
+        <label for="email">Email:</label>
+        <input name="email" type="email" id="email" required />
+
+        <label for="dob">Birthday:</label>
+        <input name="dob" type="date" id="dob" />
+
+        <label for="country">Country:</label>
+        <input name="country" type="text" id="country" />
+
+        <label for="theme">Theme:</label>
+        <input list="theme" name="theme" />
+        <datalist id="theme">
+          <option value="Light"></option>
+          <option value="Dark"></option>
+        </datalist>
+
+        <button>Create Profile</button>
+      </form>
     </main>
   </body>
 

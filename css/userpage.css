@@ -31,7 +31,8 @@ main {
   min-width: 80px;
 }
 
-#userinfo-container {
+#userinfo-container,
+form {
   width: 30%;
   border: 1px solid black;
   border-radius: 20px;
@@ -49,4 +50,35 @@ p {
 
 #award-container p {
   font-size: 1rem;
+}
+
+/* Form Styling */
+label {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+
+input {
+  display: inline-block;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+form button {
+  display: flex;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+label,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+  margin: 4px 0;
+  padding: 6px;
+}
+
+.hidden {
+  display: none;
 }
