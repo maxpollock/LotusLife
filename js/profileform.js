@@ -25,6 +25,8 @@ form.addEventListener("submit", function (event) {
   newUser.saveUser();
   document.getElementById("userprofile-form").classList.toggle("hidden");
   document.getElementById("userinfo-container").classList.toggle("hidden");
+
+  toggleTheme();
 });
 
 CreateUser.prototype.generateUser = function () {
@@ -98,4 +100,17 @@ if (localStorage.getItem("Name")) {
   document.getElementById("userprofile-form").classList.toggle("hidden");
 } else {
   document.getElementById("userinfo-container").classList.toggle("hidden");
+}
+
+function toggleTheme() {
+  // change what is in localStorage from Light to Dark or Dark to Light
+  if (localStorage.getItem("Theme") === "Dark") {
+    localStorage.setItem("Theme", "Light");
+  } else {
+    localStorage.setItem("Theme", "Dark");
+  }
+
+  // toggle the theme classes
+  document.body.classList.toggle("light");
+  document.body.classList.toggle("dark");
 }
