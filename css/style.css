@@ -132,9 +132,9 @@ a {
 }
 
 .small-button {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.788);
   font-family: "Comfortaa", cursive;
-  border: none;
+  border: rgb(31, 31, 31) 0.5px solid;
   padding: 8px 15px;
   text-align: center;
   text-decoration: none;
