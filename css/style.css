@@ -83,7 +83,7 @@ a li:hover {
 /* Footer Styling */
 
 .social-media-footer {
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   width: 30%;
   margin: 0 auto;
@@ -122,6 +122,11 @@ a li:hover {
 }
 
 body.dark .header {
+  background: rgb(187, 187, 187);
+  border-radius: 30px;
+}
+
+body.dark .social-media-footer {
   background: rgb(187, 187, 187);
   border-radius: 30px;
 }
