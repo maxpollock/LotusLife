@@ -8,6 +8,7 @@ image {
 
 h2 {
   text-align: center;
+  margin-top: 3.5rem;
 }
 
 p {
@@ -15,6 +16,9 @@ p {
   padding: 20px;
   background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
   border-radius: 30px;
+  max-width: 65%;
+  margin: 0 auto;
+  font-size: 1.2rem;
 }
 
 textarea {
