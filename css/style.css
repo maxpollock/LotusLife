@@ -10,8 +10,8 @@
 } */
 
 body {
-  margin: 2em;
-  padding: 1em;
+  margin: 0 5rem;
+  box-sizing: border-box;
 }
 
 h1,
@@ -19,6 +19,11 @@ h2,
 h3 {
   font-family: "Comfortaa", cursive;
   text-transform: uppercase;
+}
+
+h1 {
+  width: 83%;
+  margin: 3rem auto;
 }
 
 p,
@@ -38,7 +43,7 @@ header {
 }
 
 nav {
-  margin: 1rem auto;
+  margin: 0.5rem auto;
   width: 95%;
   display: flex;
   justify-content: space-around;
