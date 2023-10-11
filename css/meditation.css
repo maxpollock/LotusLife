@@ -20,13 +20,25 @@ h3 {
 }
 
 #morning {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  border-radius: 30px;
   width: 60%;
 }
 #nighttime {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
+  border-radius: 30px;
   width: 60%;
 }
 
 #calming {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  border-radius: 30px;
   width: 60%;
   padding-bottom: 60px;
 }

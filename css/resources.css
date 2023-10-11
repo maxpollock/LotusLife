@@ -24,3 +24,10 @@ h1 {
   margin: 1.5rem 0;
   font-size: 1.2rem;
 }
+
+div {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  border-radius: 30px;
+}
