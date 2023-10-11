@@ -1,7 +1,11 @@
 .first-row {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to left,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   margin: 2em;
   padding: 1em;
@@ -17,7 +21,11 @@
 .second-row {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   margin: 2em;
   padding: 1em;
@@ -32,7 +40,11 @@
 .third-row {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to left,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   margin: 2em;
   padding: 1em;

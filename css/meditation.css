@@ -22,7 +22,11 @@ h3 {
 #morning {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   width: 60%;
   margin-bottom: 50px;
@@ -30,7 +34,11 @@ h3 {
 #nighttime {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to left,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   width: 60%;
   margin-bottom: 50px;
@@ -39,7 +47,11 @@ h3 {
 #calming {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   width: 60%;
   margin-bottom: 50px;

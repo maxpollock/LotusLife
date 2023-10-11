@@ -10,7 +10,11 @@ h2 {
 p {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   max-width: 65%;
   margin: 0 auto;

@@ -14,8 +14,8 @@ main {
   height: 500px;
   border-radius: 50%;
   background-size: 610px;
-  box-shadow: inset 8px 36px 80px 36px rgb(103, 203, 120),
-    inset -6px 0 12px 4px rgba(103, 203, 120, 0.553);
+  box-shadow: inset 8px 36px 80px 36px rgb(182, 244, 146, 0.75),
+    inset -6px 0 12px 4px rgb(51, 139, 147, 0.75);
 }
 
 .on {
@@ -59,21 +59,29 @@ main {
 p {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px 80px 30px 80px;
   font-size: 1.5rem;
 }
 
 ol {
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   font-size: 1.5rem;
   list-style: decimal inside none;
 }
 
 li {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 footer {
