@@ -1,37 +1,12 @@
-body {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 3fr 1fr 1fr 2fr 1fr;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-header {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-
-/*#outter {
-  border: 1px solid rgb(103, 203, 120);
-  background-color: rgb(0, 0, 0);
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  justify-self: center;
-  background-position: center;
-  width: 700px;
-  height: 700px;
-  border-radius: 50%;
-  background-size: 0px;
-}*/
 
 #circle {
   border: 1px solid rgb(103, 203, 120);
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
   justify-self: center;
   background: url(https://images.vexels.com/media/users/3/164376/isolated/preview/f40e1dabf39e5fb85f8f98981a95dad1-lotus-leaf-flat.png);
   background-position: center;
@@ -41,8 +16,6 @@ header {
   background-size: 610px;
   box-shadow: inset 8px 36px 80px 36px rgb(103, 203, 120),
     inset -6px 0 12px 4px rgba(103, 203, 120, 0.553);
-  will-change: transform;
-  position: relative;
 }
 
 .on {
@@ -64,14 +37,19 @@ header {
 }
 
 .start {
+  background-color: white;
+  font-family: "Comfortaa", cursive;
+  padding: 10px 40px;
   font-size: 1.5rem;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  width: 150px;
-  height: 40px;
-  justify-self: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.start:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .start:active {
@@ -83,29 +61,21 @@ p {
   padding: 20px;
   background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
   border-radius: 30px 80px 30px 80px;
-  font-size: 2rem;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
+  font-size: 1.5rem;
 }
+
 ol {
-  text-align: center;
   padding: 20px;
   background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
   border-radius: 30px;
-  font-size: 2rem;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 5;
-  grid-row-end: 6;
+  font-size: 1.5rem;
   list-style: decimal inside none;
 }
 
+li {
+  margin-bottom: .5rem;
+}
+
 footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 6;
-  grid-row-end: 7;
   justify-self: center;
 }
