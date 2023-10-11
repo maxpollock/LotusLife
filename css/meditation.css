@@ -25,6 +25,7 @@ h3 {
   background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
   border-radius: 30px;
   width: 60%;
+  margin-bottom: 50px;
 }
 #nighttime {
   text-align: center;
@@ -32,6 +33,7 @@ h3 {
   background: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
   border-radius: 30px;
   width: 60%;
+  margin-bottom: 50px;
 }
 
 #calming {
@@ -40,7 +42,7 @@ h3 {
   background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
   border-radius: 30px;
   width: 60%;
-  padding-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 button {
