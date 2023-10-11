@@ -1,20 +1,49 @@
-image {
+h3 {
+  margin-bottom: 2rem;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-
-h2 {
   text-align: center;
-  margin-top: 3.5rem;
-}
-
-p {
-  text-align: center;
-  padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
-  border-radius: 30px;
-  max-width: 65%;
+  line-height: 1.5;
   margin: 0 auto;
-  font-size: 1.2rem;
+  padding: 5%;
+}
+
+section {
+  overflow: hidden;
+  height: 100%;
+}
+
+#section1 {
+  background-color: #fff;
+  padding: 5%;
+  transform: skew(0, -2deg); /* makes the section slanted/skewed */
+}
+
+#section2 {
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  padding: 5%;
+  transform: skew(0, -2deg); /* makes the section slanted/skewed */
+}
+
+#section2 h3,
+#section2 p {
+  transform: skew(0, 2deg); /* eliminates skew on container's text elements */
+}
+
+#section3 {
+  background-color: #1f2937;
+  height: 100%;
+  color: #f2f2f2;
+  margin-top: -5%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  overflow: hidden;
 }
 
 textarea {
@@ -71,7 +100,5 @@ button {
 .ill10 {
   max-width: 300px;
   max-height: 300px;
-  z-index: 1;
-  display: wrap;
-  justify-self: right;
+  z-index: -1;
 }
