@@ -4,6 +4,10 @@
 }
 
 main {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  border-radius: 30px;
   max-width: 85%;
   height: 750px;
   margin: 0 auto;
