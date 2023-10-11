@@ -63,3 +63,19 @@ button {
   display: flex;
   justify-content: center;
 }
+
+.ill1 {
+  max-width: 300px;
+  max-height: 300px;
+  z-index: 1;
+  display: wrap;
+  justify-self: left;
+}
+
+.ill10 {
+  max-width: 300px;
+  max-height: 300px;
+  z-index: 1;
+  display: wrap;
+  justify-self: right;
+}
