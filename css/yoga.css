@@ -2,15 +2,17 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  
 }
 
 * {
   box-sizing: border-box;
+  
 }
 
 body {
   margin: 0;
-}
+  }
 
 .button {
   border: 5px solid #03071e;
@@ -22,15 +24,18 @@ body {
   color: #03071e;
   font-weight: bold;
   transition: 0.2s;
+  
 }
 
 .button:hover {
   background-color: #03071e;
   color: white;
+  
 }
 
 img {
   display: block;
   height: auto;
   max-width: 100%;
+  
 }
