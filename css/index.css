@@ -10,10 +10,10 @@ main {
   justify-self: center;
   background: url(https://images.vexels.com/media/users/3/164376/isolated/preview/f40e1dabf39e5fb85f8f98981a95dad1-lotus-leaf-flat.png);
   background-position: center;
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   border-radius: 50%;
-  background-size: 610px;
+  background-size: 500px;
   box-shadow: inset 8px 36px 80px 36px rgb(182, 244, 146, 0.75),
     inset -6px 0 12px 4px rgb(51, 139, 147, 0.75);
 }
