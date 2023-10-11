@@ -118,6 +118,11 @@ a li:hover {
   color: rgb(255, 255, 255);
 }
 
+body.dark .header {
+  background: rgb(187, 187, 187);
+  border-radius: 30px;
+}
+
 a {
   font-weight: bold;
   color: rgb(84, 15, 114);
