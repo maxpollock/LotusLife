@@ -1,25 +1,25 @@
 // get the current theme, and add the relevant class
-const theme = localStorage.getItem("theme");
+const theme = localStorage.getItem("Theme");
 
-if (theme === "light") {
-  // if the LS theme is light
+if (theme === "Light") {
+  // if the LS theme is Light
   document.body.classList.add("light");
-} else if (theme === "dark") {
-  // if the LS theme is dark
+} else if (theme === "Dark") {
+  // if the LS theme is Dark
   document.body.classList.add("dark");
 } else {
   // if we HAVEN'T got a LS theme
   document.body.classList.add("light");
-  // add the light theme if there is none
-  localStorage.setItem("theme", "light");
+  // add the Light theme if there is none
+  localStorage.setItem("Theme", "Light");
 }
 
 function toggleTheme() {
-  // change what is in localStorage from light to dark or dark to light
-  if (localStorage.getItem("theme") === "dark") {
-    localStorage.setItem("theme", "light");
+  // change what is in localStorage from Light to Dark or Dark to Light
+  if (localStorage.getItem("Theme") === "Dark") {
+    localStorage.setItem("Theme", "Light");
   } else {
-    localStorage.setItem("theme", "dark");
+    localStorage.setItem("Theme", "Dark");
   }
 
   // toggle the theme classes
