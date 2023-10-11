@@ -37,7 +37,7 @@ div {
   background: linear-gradient(
     to right,
     rgb(182, 244, 146, 0.75),
-    rgba(116, 197, 204, 0.764, 0.75)
+    rgb(51, 139, 147, 0.75)
   );
   border-radius: 30px;
 }
