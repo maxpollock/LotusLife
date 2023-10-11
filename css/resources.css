@@ -1,5 +1,5 @@
 section {
-  width: 85%;
+  width: 90%;
   margin: 2rem auto;
   display: flex;
   justify-content: space-between;
@@ -13,11 +13,17 @@ h1 {
 }
 
 .resources-container {
-  max-width: 25%;
+  max-width: 22%;
+  height: 440px;
   border: 1px solid black;
   margin: 2rem 1rem;
   padding: 2rem;
   border-radius: 20px;
+  transition: 0.5s;
+}
+
+.resources-container:hover {
+  transform: scale(1.05);
 }
 
 .resources-container li {
@@ -28,6 +34,10 @@ h1 {
 div {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
 }

@@ -44,10 +44,9 @@ section {
   padding-top: 8%;
   padding-bottom: 8%;
   overflow: hidden;
-}
 
 textarea {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   width: 70%;
   height: 100px;
   resize: none;

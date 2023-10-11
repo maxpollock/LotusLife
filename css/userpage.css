@@ -5,7 +5,11 @@
 
 main {
   padding: 20px;
-  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background: linear-gradient(
+    to right,
+    rgb(182, 244, 146, 0.75),
+    rgb(51, 139, 147, 0.75)
+  );
   border-radius: 30px;
   max-width: 100%;
   height: 750px;
@@ -80,7 +84,7 @@ form button {
 label,
 button,
 input {
-  font-family: "Roboto", sans-serif;
+  font-family: "Nunito", sans-serif;
   margin: 4px 0;
   padding: 6px;
 }
