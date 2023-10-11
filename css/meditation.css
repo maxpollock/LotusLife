@@ -35,3 +35,13 @@ button {
   margin: 0.5rem auto;
   display: flex;
 }
+.ill4 {
+  max-width: 300px;
+  max-height: 300px;
+  z-index: 1;
+}
+.ill5 {
+  max-width: 300px;
+  max-height: 300px;
+  z-index: 1;
+}
