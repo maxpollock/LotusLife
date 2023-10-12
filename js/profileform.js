@@ -25,8 +25,6 @@ form.addEventListener("submit", function (event) {
   newUser.saveUser();
   document.getElementById("userprofile-form").classList.toggle("hidden");
   document.getElementById("userinfo-container").classList.toggle("hidden");
-
-  toggleTheme();
 });
 
 CreateUser.prototype.generateUser = function () {
