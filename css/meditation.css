@@ -20,6 +20,7 @@ h3 {
 }
 
 #morning {
+  z-index: 0;
   text-align: center;
   padding: 20px;
   background: linear-gradient(
@@ -32,6 +33,7 @@ h3 {
   margin-bottom: 50px;
 }
 #nighttime {
+  z-index: 0;
   text-align: center;
   padding: 20px;
   background: linear-gradient(
@@ -45,6 +47,7 @@ h3 {
 }
 
 #calming {
+  z-index: 0;
   text-align: center;
   padding: 20px;
   background: linear-gradient(
@@ -62,17 +65,25 @@ button {
   display: flex;
 }
 .ill4 {
+  z-index: 1;
   max-width: 300px;
   max-height: 300px;
-  z-index: 1;
+  position: absolute;
+  margin-top: 30em;
+  margin-left: 55em;
 }
 .ill5 {
-  max-width: 300px;
-  max-height: 300px;
   z-index: 1;
+  max-width: 400px;
+  max-height: 400px;
+  position: absolute;
+  margin-top: 80em;
+  margin-right: 55em;
 }
 
-#nighttime iframe, #calming iframe, #morning iframe {
+#nighttime iframe,
+#calming iframe,
+#morning iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
