@@ -78,3 +78,15 @@
   max-height: 300px;
   z-index: 50;
 }
+
+iframe {
+  border-radius: 30px;
+  margin: 3em 0.5em 0em 0.5em;
+  padding: 1em;
+}
+
+.small-button {
+  justify-content: center;
+  display: block;
+  margin: 1em auto;
+}
