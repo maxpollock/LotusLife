@@ -70,15 +70,15 @@ button {
   max-height: 300px;
   position: absolute;
   margin-top: 30em;
-  margin-left: 55em;
+  margin-left: 52em;
 }
 .ill5 {
   z-index: 1;
-  max-width: 400px;
-  max-height: 400px;
+  max-width: 500px;
+  max-height: 500px;
   position: absolute;
   margin-top: 80em;
-  margin-right: 55em;
+  margin-right: 50em;
 }
 
 #nighttime iframe,
