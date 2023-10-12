@@ -44,6 +44,7 @@ h3 {
   border-radius: 30px;
   width: 60%;
   margin-bottom: 50px;
+  position: relative;
 }
 
 #calming {
@@ -58,6 +59,7 @@ h3 {
   border-radius: 30px;
   width: 60%;
   margin-bottom: 50px;
+  position: relative;
 }
 
 button {
@@ -69,16 +71,16 @@ button {
   max-width: 300px;
   max-height: 300px;
   position: absolute;
-  margin-top: 30em;
-  margin-left: 52em;
+  top: -130px;
+  right: -120px;
 }
 .ill5 {
   z-index: 1;
   max-width: 500px;
   max-height: 500px;
   position: absolute;
-  margin-top: 80em;
-  margin-right: 50em;
+  top: -100px;
+  left: -180px;
 }
 
 #nighttime iframe,
