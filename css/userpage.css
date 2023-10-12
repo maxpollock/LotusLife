@@ -4,6 +4,7 @@
 }
 
 main {
+  z-index: 0;
   padding: 20px;
   background: linear-gradient(
     to right,
@@ -93,4 +94,22 @@ input {
 
 .hidden {
   display: none;
+}
+
+.ill6 {
+  z-index: 1;
+  max-width: 450px;
+  max-height: 450px;
+  position: absolute;
+  margin-top: 10em;
+  margin-left: 52em;
+}
+
+.ill2 {
+  z-index: 1;
+  max-width: 550px;
+  max-height: 550px;
+  position: absolute;
+  margin-top: 5em;
+  margin-right: 60em;
 }
