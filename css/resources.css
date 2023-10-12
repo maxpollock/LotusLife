@@ -14,7 +14,8 @@ h1 {
 
 .resources-container {
   max-width: 22%;
-  height: 440px;
+  height: 460px;
+  overflow: hidden;
   border: 1px solid black;
   margin: 2rem 1rem;
   padding: 2rem;
@@ -26,7 +27,7 @@ h1 {
   transform: scale(1.05);
 }
 
-.resources-container li {
+.resources-container p {
   margin: 1.5rem 0;
   font-size: 1.2rem;
 }
