@@ -71,7 +71,9 @@ label {
   text-align: center;
 }
 
-input, select, option {
+input,
+select,
+option {
   display: inline-block;
   width: 50%;
   margin: 1rem auto;
@@ -86,41 +88,42 @@ form button {
 
 label,
 button,
-input, select {
+input,
+select {
   font-family: "Nunito", sans-serif;
   margin: 4px 0;
   box-sizing: content-box;
   padding: 6px 10px;
 }
 
-input, select {
-border: 1.5px solid black;
+input,
+select {
+  border: 1.5px solid black;
 }
 
 .hidden {
   display: none;
 }
 
-
 .ill6 {
   z-index: 1;
-  max-width: 450px;
-  max-height: 450px;
+  max-width: 300px;
+  max-height: 300px;
   position: absolute;
-  margin-top: 10em;
-  margin-left: 52em;
+  margin-top: 15em;
+  margin-left: 65em;
 }
 
 .ill2 {
   z-index: 1;
-  max-width: 550px;
-  max-height: 550px;
+  max-width: 400px;
+  max-height: 400px;
   position: absolute;
-  margin-top: 5em;
-  margin-right: 60em;
+  margin-top: 13em;
+  margin-left: 3em;
+}
 
 .small-button {
   display: flex;
   margin: 1rem auto;
-
 }
