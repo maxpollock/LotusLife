@@ -91,13 +91,16 @@ footer {
 #instructions {
   width: 83%;
   margin: 0 auto;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 #instructions:hover {
-  text-decoration: underline;
+  color: indigo;
+  font-size: 1.1rem;
 }
 
 h1 {
@@ -113,4 +116,9 @@ h1 {
 #instruct-link:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
