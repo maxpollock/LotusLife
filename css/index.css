@@ -103,3 +103,14 @@ footer {
 h1 {
   margin-bottom: 0.5rem;
 }
+
+#instruct-list,
+#instruct-link {
+  transition: 0.5s;
+}
+
+#instruct-list:hover,
+#instruct-link:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
