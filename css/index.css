@@ -90,7 +90,7 @@ footer {
 
 #instructions {
   width: 83%;
-  margin: 0 auto;
+  margin: 0 auto 3rem auto;
   font-size: 1rem;
   display: flex;
   align-items: center;
