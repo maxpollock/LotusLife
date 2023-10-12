@@ -11,8 +11,8 @@ h3 {
   max-width: 400px;
   max-height: 400px;
   position: absolute;
-  margin-top: 5em;
-  margin-left: 57em;
+  bottom: 75px;
+  right: -400px;
 }
 
 .ill3 {
@@ -91,6 +91,7 @@ textarea {
 }
 
 #form-container {
+  margin: 6rem 0;
   display: flex;
   justify-content: center;
 }
@@ -101,14 +102,15 @@ form {
 label {
   display: inline-block;
   width: 20%;
+  font-family: "Nunito", sans-serif;
 }
 input {
   display: inline-block;
 }
 
-button {
+.small-button {
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .ill1 {
@@ -123,4 +125,13 @@ button {
   max-width: 300px;
   max-height: 300px;
   z-index: -1;
+}
+
+#subs p {
+  display: flex;
+  justify-content: center;
+}
+
+#section3 p {
+  position: relative;
 }

@@ -151,9 +151,11 @@ a {
   font-size: 12px;
   border-radius: 20px;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .small-button:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transform: scale(1.05);
 }
