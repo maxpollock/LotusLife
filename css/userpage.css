@@ -71,7 +71,7 @@ label {
   text-align: center;
 }
 
-input {
+input, select, option {
   display: inline-block;
   width: 50%;
   margin: 1rem auto;
@@ -86,15 +86,21 @@ form button {
 
 label,
 button,
-input {
+input, select {
   font-family: "Nunito", sans-serif;
   margin: 4px 0;
-  padding: 6px;
+  box-sizing: content-box;
+  padding: 6px 10px;
+}
+
+input, select {
+border: 1.5px solid black;
 }
 
 .hidden {
   display: none;
 }
+
 
 .ill6 {
   z-index: 1;
@@ -112,4 +118,9 @@ input {
   position: absolute;
   margin-top: 5em;
   margin-right: 60em;
+
+.small-button {
+  display: flex;
+  margin: 1rem auto;
+
 }

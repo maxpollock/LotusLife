@@ -131,6 +131,10 @@ body.dark .social-media-footer {
   border-radius: 30px;
 }
 
+body.dark #instructions {
+  color: white;
+}
+
 a {
   font-weight: bold;
   color: rgb(84, 15, 114);

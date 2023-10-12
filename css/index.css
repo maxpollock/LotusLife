@@ -20,7 +20,7 @@ main {
 
 .on {
   animation-name: breathing;
-  animation-duration: 8s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
 }
 
@@ -65,7 +65,7 @@ p {
     rgb(51, 139, 147, 0.75)
   );
   border-radius: 30px 80px 30px 80px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 ol {
@@ -76,7 +76,7 @@ ol {
     rgb(51, 139, 147, 0.75)
   );
   border-radius: 30px;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   list-style: decimal inside none;
 }
 
@@ -90,14 +90,17 @@ footer {
 
 #instructions {
   width: 83%;
-  margin: 0 auto;
+  margin: 0 auto 3rem auto;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 #instructions:hover {
-  text-decoration: underline;
+  color: indigo;
+  font-size: 1.1rem;
 }
 
 h1 {
@@ -113,4 +116,9 @@ h1 {
 #instruct-link:hover {
   transform: scale(1.05);
   cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
