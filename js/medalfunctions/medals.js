@@ -51,7 +51,7 @@ function medalCheck() {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let lotus10 = document.createElement("img");
-    lotus10.src = "./images/medal-5.png";
+    lotus10.src = "./images/medal - 10.png";
 
     let lotus10text = document.createElement("p");
     lotus10text.textContent = "Used Breathing Lotus 10 times";
@@ -64,7 +64,7 @@ function medalCheck() {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let meditate10 = document.createElement("img");
-    meditate10.src = "./images/medal-5.png";
+    meditate10.src = "./images/medal - 10.png";
 
     let meditate10text = document.createElement("p");
     meditate10text.textContent = "Meditated 10 times";
@@ -77,7 +77,7 @@ function medalCheck() {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let yoga10 = document.createElement("img");
-    yoga10.src = "./images/medal-5.png";
+    yoga10.src = "./images/medal - 10.png";
 
     let yoga10text = document.createElement("p");
     yoga10text.textContent = "Practiced Yoga 10 times";
@@ -91,7 +91,7 @@ function medalCheck() {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let lotus20 = document.createElement("img");
-    lotus20.src = "./images/medal-5.png";
+    lotus20.src = "./images/medal - 20.png";
 
     let lotus20text = document.createElement("p");
     lotus20text.textContent = "Used Breathing Lotus 20 times";
@@ -104,7 +104,7 @@ function medalCheck() {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let meditate20 = document.createElement("img");
-    meditate20.src = "./images/medal-5.png";
+    meditate20.src = "./images/medal - 20.png";
 
     let meditate20text = document.createElement("p");
     meditate20text.textContent = "Meditated 20 times";
@@ -117,7 +117,7 @@ function medalCheck() {
     let medalsDiv = document.createElement("div");
     medalsDiv.classList.add("medals");
     let yoga20 = document.createElement("img");
-    yoga20.src = "./images/medal-5.png";
+    yoga20.src = "./images/medal - 20.png";
 
     let yoga20text = document.createElement("p");
     yoga20text.textContent = "Practiced Yoga 20 times";
